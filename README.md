@@ -17,3 +17,8 @@
 ## Roadmap
 - Day1：定范围 + 建仓库骨架 + 写 ONE_PAGER
 - Day2：指标口径 & 样例数据 & 诊断规则 v0
+
+
+## Docs
+- PRD: docs/PRD.md
+- Workflow diagram: docs/flow.mmd
