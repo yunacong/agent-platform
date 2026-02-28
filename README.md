@@ -22,3 +22,11 @@
 ## Docs
 - PRD: docs/PRD.md
 - Workflow diagram: docs/flow.mmd
+
+
+## Knowledge Base (for RAG)
+- kb/metric_definitions.md
+- kb/learning_phase_rules.md
+- kb/common_failure_cases.md
+- kb/action_playbook.md
+- kb/risk_and_rollback.md
