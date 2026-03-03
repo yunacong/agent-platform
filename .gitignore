@@ -11,3 +11,6 @@ data_processed/*
 !data_processed/.keep
 
 !data_processed/campaign_daily_anomaly.csv
+
+# editor backups
+*.save
