@@ -80,6 +80,7 @@ summary, diagnosis, root_causes, actions, confidence, citations
 
 再次强调：只输出 JSON。
 
+---
 ## 4) 示例输出（Final Example）
 {
   "summary": "近7天ROI下降主要由数据质量问题导致，包括基准期数据缺失和特定campaign表现异常，使得对比不准确。",
@@ -142,6 +143,8 @@ summary, diagnosis, root_causes, actions, confidence, citations
   "confidence": 0.4,
   "citations": []
 }
+
+---
 
 ## 5) 回归测试用例
   1.	近7天 ROI 掉了，按 campaign 下钻
