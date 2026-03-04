@@ -3,6 +3,9 @@ services:
     name: agent-platform-api
     env: python
     plan: free
-    buildCommand: pip install -r backend/requirements.txt
+    buildCommand: python -m pip install --upgrade pip setuptools wheel && pip install -r backend/requirements.txt
     startCommand: uvicorn backend.app:app --host 0.0.0.0 --port $PORT
     autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.8"
