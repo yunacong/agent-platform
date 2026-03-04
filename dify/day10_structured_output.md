@@ -53,6 +53,8 @@ LLM 最终必须输出一个 JSON 对象，且包含字段：
 
 ---
 
+
+```md
 ## 3) 参考 System Prompt（可复制）
 
 > 注：如果你走的是「LLM(text JSON) → PARSE_LLM_JSON → 输出(Object)」链路，建议用这套更稳。
@@ -66,21 +68,22 @@ summary, diagnosis, root_causes, actions, confidence, citations
 约束：
 - root_causes: 2~4 条
   - hypothesis: string
-  - evidence: 至少 2 条；每条必须是对象 {source, key, value}
+  - evidence: 至少 2 条；每条必须是对象 {"source","key","value"}
     - source 只能是 trend_rows / anomalies_top3 / contributions_top5 / compare_window
   - how_to_validate: string，格式必须包含：
     method: 对照/分流/A-B/回放; metric: <指标>; pass_criteria: <通过阈值>
+
 - actions: 2~5 条
   - action / expected_impact / risk / rollback: string
-  - evidence: 至少 1 条；对象 {source, key, value}
+  - evidence: 至少 1 条；对象 {"source","key","value"}
+
 - confidence: 0~1
   - 如果 evidence_json 中出现 baseline=-1 或 compare_window.baseline.revenue=0，则 confidence 必须 <= 0.5，
     且在每条 actions[].risk 写明“样本不足/口径异常”
+
 - citations: 仅在确定命中知识库时填写（kb/<filename>#<section>），不确定则输出 []
 
 再次强调：只输出 JSON。
-
-
 
 
 ## 4) 示例输出
