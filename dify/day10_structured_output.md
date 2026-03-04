@@ -53,11 +53,8 @@ LLM 最终必须输出一个 JSON 对象，且包含字段：
 
 ---
 
-## 3) 参考 System Prompt（可复制）
+### 3) 参考 System Prompt（可复制）
 
-> 注：如果你走的是「LLM(text JSON) → PARSE_LLM_JSON → 输出(Object)」链路，建议用这套更稳。
-
-```text
 你是投放诊断助手。只输出一个合法 JSON 对象（必须以 { 开头，以 } 结尾），不要输出任何解释文字、不要输出 markdown、不要输出 <think>、不要输出代码块。
 
 输出 JSON 必须包含字段：
@@ -80,10 +77,7 @@ summary, diagnosis, root_causes, actions, confidence, citations
 
 再次强调：只输出 JSON。
 
-
----
-
-## 4) 示例输出（Final Example）
+### 4) 示例输出（Final Example）
 
 {
   "summary": "近7天ROI下降主要由数据质量问题导致，包括基准期数据缺失和特定campaign表现异常，使得对比不准确。",
@@ -147,10 +141,10 @@ summary, diagnosis, root_causes, actions, confidence, citations
   "citations": []
 }
 
----
+
 
 ## 5) 回归测试用例
-  1.	近7天 ROI 掉了，按 campaign 下钻
+	1.	近7天 ROI 掉了，按 campaign 下钻
 	2.	昨天 CPA 变贵了，想降 CPA
 	3.	上周 ROAS 怎么样？有没有异常
 	4.	本周 spend 暴涨但 revenue 不涨（怀疑浪费），按 geo 下钻
