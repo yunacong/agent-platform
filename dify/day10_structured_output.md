@@ -80,8 +80,11 @@ summary, diagnosis, root_causes, actions, confidence, citations
 
 再次强调：只输出 JSON。
 
+
 ---
+
 ## 4) 示例输出（Final Example）
+
 {
   "summary": "近7天ROI下降主要由数据质量问题导致，包括基准期数据缺失和特定campaign表现异常，使得对比不准确。",
   "diagnosis": "ROI下降的警报很可能被数据缺失放大：基准期 revenue=0 且多个campaign baseline=-1，导致ROI对比失真；同时 cmp_1652 在对比期ROI显著下滑，加上高贡献campaign cmp_2141 基准期为0而对比期突增，使整体趋势更难可靠判断。",
