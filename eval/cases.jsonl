@@ -1,0 +1,50 @@
+{"id": "c01", "user_query": "上周 上周 ROAS 怎么样？有没有异常", "expect": {"metric": "roas", "date_range": "上周", "dim": "campaign"}}
+{"id": "c02", "user_query": "近7天 ROI 掉了，按 campaign 下钻", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c03", "user_query": "近7天 revenue 掉了，按 campaign 下钻", "expect": {"metric": "revenue", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c04", "user_query": "近7天 ROI 上升了，想稳量不波动，按 campaign 看看", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c05", "user_query": "近7天 ROI 掉了，按 campaign 下钻", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c06", "user_query": "近7天 CTR 下滑了，按 creative 找原因并给动作建议", "expect": {"metric": "ctr", "date_range": "近7天", "dim": "creative"}}
+{"id": "c07", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c08", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c09", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c10", "user_query": "本周 本周 spend 暴涨但 revenue 不涨，按 geo 下钻", "expect": {"metric": "spend", "date_range": "本周", "dim": "geo"}}
+{"id": "c11", "user_query": "近7天 revenue 掉了，按 campaign 下钻", "expect": {"metric": "revenue", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c12", "user_query": "近7天 ROI 掉了，按 campaign 下钻", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c13", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c14", "user_query": "近7天 ROI 上升了，想稳量不波动，按 campaign 看看", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c15", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c16", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c17", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c18", "user_query": "近7天 ROI 上升了，想稳量不波动，按 campaign 看看", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c19", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c20", "user_query": "近7天 CTR 下滑了，按 creative 找原因并给动作建议", "expect": {"metric": "ctr", "date_range": "近7天", "dim": "creative"}}
+{"id": "c21", "user_query": "近7天 ROI 掉了，按 campaign 下钻", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c22", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c23", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c24", "user_query": "近7天 CTR 下滑了，按 creative 找原因并给动作建议", "expect": {"metric": "ctr", "date_range": "近7天", "dim": "creative"}}
+{"id": "c25", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c26", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c27", "user_query": "近7天 revenue 掉了，按 campaign 下钻", "expect": {"metric": "revenue", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c28", "user_query": "近7天 CTR 下滑了，按 creative 找原因并给动作建议", "expect": {"metric": "ctr", "date_range": "近7天", "dim": "creative"}}
+{"id": "c29", "user_query": "近7天 CTR 下滑了，按 creative 找原因并给动作建议", "expect": {"metric": "ctr", "date_range": "近7天", "dim": "creative"}}
+{"id": "c30", "user_query": "上周 上周 ROAS 怎么样？有没有异常", "expect": {"metric": "roas", "date_range": "上周", "dim": "campaign"}}
+{"id": "c31", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c32", "user_query": "近7天 CTR 下滑了，按 creative 找原因并给动作建议", "expect": {"metric": "ctr", "date_range": "近7天", "dim": "creative"}}
+{"id": "c33", "user_query": "上周 上周 ROAS 怎么样？有没有异常", "expect": {"metric": "roas", "date_range": "上周", "dim": "campaign"}}
+{"id": "c34", "user_query": "近7天 ROI 上升了，想稳量不波动，按 campaign 看看", "expect": {"metric": "roi", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c35", "user_query": "近7天 revenue 掉了，按 campaign 下钻", "expect": {"metric": "revenue", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c36", "user_query": "本周 本周 spend 暴涨但 revenue 不涨，按 geo 下钻", "expect": {"metric": "spend", "date_range": "本周", "dim": "geo"}}
+{"id": "c37", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c38", "user_query": "近7天 revenue 掉了，按 campaign 下钻", "expect": {"metric": "revenue", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c39", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c40", "user_query": "昨天 CPA 变贵了，想降 CPA", "expect": {"metric": "cpa", "date_range": "昨天", "dim": "campaign"}}
+{"id": "c41", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c42", "user_query": "本周 本周 spend 暴涨但 revenue 不涨，按 geo 下钻", "expect": {"metric": "spend", "date_range": "本周", "dim": "geo"}}
+{"id": "c43", "user_query": "近7天 CTR 下滑了，按 creative 找原因并给动作建议", "expect": {"metric": "ctr", "date_range": "近7天", "dim": "creative"}}
+{"id": "c44", "user_query": "本周 本周 spend 暴涨但 revenue 不涨，按 geo 下钻", "expect": {"metric": "spend", "date_range": "本周", "dim": "geo"}}
+{"id": "c45", "user_query": "近7天 revenue 掉了，按 campaign 下钻", "expect": {"metric": "revenue", "date_range": "近7天", "dim": "campaign"}}
+{"id": "c46", "user_query": "本周 本周 spend 暴涨但 revenue 不涨，按 geo 下钻", "expect": {"metric": "spend", "date_range": "本周", "dim": "geo"}}
+{"id": "c47", "user_query": "上周 上周 ROAS 怎么样？有没有异常", "expect": {"metric": "roas", "date_range": "上周", "dim": "campaign"}}
+{"id": "c48", "user_query": "上周 上周 ROAS 怎么样？有没有异常", "expect": {"metric": "roas", "date_range": "上周", "dim": "campaign"}}
+{"id": "c49", "user_query": "近30天 CVR 下滑了，按 audience 找原因", "expect": {"metric": "cvr", "date_range": "近30天", "dim": "audience"}}
+{"id": "c50", "user_query": "上周 上周 ROAS 怎么样？有没有异常", "expect": {"metric": "roas", "date_range": "上周", "dim": "campaign"}}
