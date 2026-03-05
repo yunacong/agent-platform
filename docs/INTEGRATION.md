@@ -5,15 +5,16 @@
 
 ⸻
 
-1）Web App 演示（给面试官用）
+# 1）Web App 演示（给面试官用）
 	•	Demo 链接：https://udify.app/workflow/sfbKPdKzf6tCQ6SJ
 	•	说明：
 	•	WebApp 用于交互式演示。
-	•	不要在公开页面中暴露任何 API Key。
+	
+<img width="1237" height="535" alt="截屏2026-03-05 01 19 21" src="https://github.com/user-attachments/assets/f9c0805f-7807-43f8-b27b-5c5bf109f313" />
 
 ⸻
 
-2）API 集成（chat-messages）
+# 2）API 集成（chat-messages）
 
 Dify 提供服务端 API，可以把同样的能力嵌入到你自己的产品里。
 
